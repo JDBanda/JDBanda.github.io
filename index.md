@@ -1,4 +1,4 @@
-## First attempt
+## Second attempt, I could display emojis :pizza: :coffee:
 
 You can use the [editor on GitHub](https://github.com/JDBanda/JDBanda.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
