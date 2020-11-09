@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <!--Icono de bootstrap, dirige al inicio-->
+            <a class="navbar-brand" href="index.html"><svg width="1em" height="1em" viewBox="0 0 16 16"
+                    class="bi bi-file-code" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M4 0h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2zm0 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H4z" />
+                    <path fill-rule="evenodd"
+                        d="M8.646 5.646a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L10.293 8 8.646 6.354a.5.5 0 0 1 0-.708zm-1.292 0a.5.5 0 0 0-.708 0l-2 2a.5.5 0 0 0 0 .708l2 2a.5.5 0 0 0 .708-.708L5.707 8l1.647-1.646a.5.5 0 0 0 0-.708z" />
+                </svg></a>
+            <!--Boton que aparece cuando se hace mas chica la pantalla-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--Menu-->
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Formación académica</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Conocimientos y habilidades</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+                    Portafolio de proyectos
+                </span>
+            </div>
+        </nav>
+    </header>
+    <!--Header end-->
+
+    <!-- Principal banner -->
+    <section id="banner">
+        <div class="container">
+            <div class="jumbotron">
+                <!--Cambiar a negro el fondo y expandirlo-->
+                <div class="row">
+                    <div class="col-sm">
+                        <h1>Javier David Banda Villeda</h1>
+                        <p>¡Hola! soy un practicante de ingeniería en sistemas computacionales<br />
+                            <strong>Web</strong> <img src="view\img\1x\web_dev.png" alt="web_deb.png"> HTML, CSS, JS,
+                            PHP, Python<br />
+                            <strong>Escritorio</strong> <img src="view\img\1x\desk_dev.png" alt="desk_dev.png"> Java,
+                            C#<br />
+                            <strong>Bases de datos</strong> <img src="view\img\1x\DB.png" alt="DB.png"> MySQL, SQL
+                            Server
+                        </p>
+                    </div>
+                    <div class="col-sm">
+                        <a class="thumbnail" href="#">
+                            <!--Insertar imagen que se haga mas pequeña-->
+                            <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Principal banner end-->
+
+    <!--Resume-->
+    <section id="resume">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-12-medium">
+                    <header>
+                        <h2>Resumen</h2>
+                        <p>Soy un desarrollador enfocado a aplicaciones web y escritorio, pienso que escribir código es fascinante
+                            pues una idea puede transformarse en algo visible
+                            <!--No se ve el corazón por el fondo-->                            
+                            <img src="view\img\1x\loves.png" alt="loves.png">.
+                        </p>
+                    </header>
+                </div>
+                <div class="col-4 col-12-medium">
+                    <p>Vivo en Ixmiquilpan, Hidalgo, México. Estoy dispuesto a brindar una solución
+                        basada en las necesidades de un cliente implementando las tecnologías que mejor
+                        se adapten al producto final. Me gusta llevar a cabo una metodología de desarrollo
+                        en donde se realicen entregas constantes (metodología ágil).
+                        Estoy interesado en proyectos basados en mi experiencia desarrollando y por supuesto
+                        retos que me ayuden a mejorar constantemente en el área.
+                    </p>
+                </div>
+                <div class="col-4 col-12-medium">
+                    <p>
+                        Estoy disponible para trabajar en un equipo que necesite de una persona
+                        comprometida, responsable y seria con su trabajo, estoy dispuesto a
+                        aprender de aquellos con mayor experiencia involucrados en el proyecto.
+                        Es importante mencionar que puedo laborar "in situ" o desde casa, si te
+                        interesa saber más acerca de mí, desliza hacía abajo.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Resume end-->
+
+    <!--Contacto-->
+    <!--Redes sociales-->
+
+    <!--Footer-->
+    <footer>Patas</footer>
+    <!--Footer end-->
+</body>
+
+</html>
