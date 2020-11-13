@@ -1,1 +1,0 @@
-Bienvenido al blog, se adoptó por seguir una estructura desde cero utilizando HTML, CSS y Bootstrap.
