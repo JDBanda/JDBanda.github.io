@@ -25,17 +25,9 @@
 <body>
     <!--Header-->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light complementary-color">
-            <!--Icono de bootstrap, dirige al inicio-->
-            <a class="navbar-brand text-color" href="index.html"><svg width="1em" height="1em" viewBox="0 0 16 16"
-                    class="bi bi-file-code" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd"
-                        d="M4 0h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2zm0 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H4z" />
-                    <path fill-rule="evenodd"
-                        d="M8.646 5.646a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L10.293 8 8.646 6.354a.5.5 0 0 1 0-.708zm-1.292 0a.5.5 0 0 0-.708 0l-2 2a.5.5 0 0 0 0 .708l2 2a.5.5 0 0 0 .708-.708L5.707 8l1.647-1.646a.5.5 0 0 0 0-.708z" />
-                </svg></a>
+        <nav class="navbar navbar-expand-lg navbar-dark primary-color">
             <!--Boton que aparece cuando se hace mas chica la pantalla-->
-            <button class="navbar-toggler complementary-color" type="button" data-toggle="collapse"
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
                 data-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon "></span>
@@ -44,20 +36,23 @@
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link text-color" href="#"><strong class="text-color-s">Proyectos</strong></a>
+                        <a class="nav-link" href="#"><strong>Proyectos</strong></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-color" href="#"><strong class="text-color-s">Formación
+                        <a class="nav-link" href="#"><strong>Formación
                                 académica</strong></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-color" href="#"><strong class="text-color-s">Conocimientos y
+                        <a class="nav-link" href="#"><strong>Conocimientos y
                                 habilidades</strong></a>
                     </li>
                 </ul>
-                <span class="navbar-text">
-                    <strong class="text-color-s">Portafolio de proyectos</strong>
-                </span>
+                <a href="index.html">
+                    <span class="navbar-text">
+                        <strong>Portafolio de proyectos</strong>
+                        <i class="fas fa-code"></i>
+                    </span>
+                </a>
             </div>
         </nav>
     </header>
@@ -70,18 +65,19 @@
                 <!--Cambiar a negro el fondo y expandirlo-->
                 <div class="row">
                     <div class="col-sm">
-                        <h1 class="right-text">Javier David Banda Villeda</h1>
-                        <p class="right-text">¡Hola! soy un practicante de ingeniería en sistemas computacionales<br />
-                            <strong>Web</strong> <img src="view\img\1x\web_dev.png" alt="web_deb.png"> HTML, CSS, JS,
-                            PHP, Python<br />
-                            <strong>Escritorio</strong> <img src="view\img\1x\desk_dev.png" alt="desk_dev.png"> Java,
-                            C#<br />
-                            <strong>Bases de datos</strong> <img src="view\img\1x\DB.png" alt="DB.png"> MySQL, SQL
-                            Server
-                        </p>
+                        <img class="small-img" src="view/img/pic01.jpg" alt="david">
                     </div>
                     <div class="col-sm">
-                        <img class="small-img" src="view/img/pic01.jpg" alt="david">
+                        <h1>Javier David Banda Villeda</h1>
+                        <p>¡Hola! soy un practicante de ingeniería en sistemas computacionales<br />
+                            <ul class="nobullets">
+                                <li><strong>Web </strong><span><i class="fas fa-globe"></i></span> HTML, CSS, JS,
+                                    PHP, Python<br /></li>
+                                <li><strong>Escritorio </strong><i class="fas fa-desktop"></i> Java,C#<br /></li>
+                                <li><strong>Bases de datos </strong><i class="fas fa-database"></i> MySQL, SQL
+                                    Server</li>
+                            </ul>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -90,37 +86,33 @@
     <!--Principal banner end-->
 
     <!--Resume-->
-    <section id="resume" class="text-color-s">
+    <section id="resume" class="complementary-color">
         <div class="container">
             <div class="row">
-                <div class="col-4 col-12-medium">
+                <div class="col-4">
                     <header>
-                        <h2>Resumen</h2>
-                        <p>Soy un desarrollador enfocado a aplicaciones web y escritorio, pienso que escribir código es
-                            fascinante
-                            pues una idea puede transformarse en algo visible
-                            <!--No se ve el corazón por el fondo, agarrar de font awesome-->
-                            <img src="view\img\1x\loves.png" alt="loves.png">.
-                        </p>
+                        <span><h2>Resumen</h2>Soy un desarrollador enfocado a aplicaciones web y escritorio, pienso que escribir código es
+                            fascinante pues una idea puede transformarse en algo visible <span><i class="fas fa-heart"></i></span></span>
                     </header>
                 </div>
-                <div class="col-4 col-12-medium">
-                    <p>Vivo en Ixmiquilpan, Hidalgo, México. Estoy dispuesto a brindar una solución
+                <div class="col-4">
+                    <span>
+                        Vivo en Ixmiquilpan, Hidalgo, México. Estoy dispuesto a brindar una solución
                         basada en las necesidades de un cliente implementando las tecnologías que mejor
                         se adapten al producto final. Me gusta llevar a cabo una metodología de desarrollo
                         en donde se realicen entregas constantes (metodología ágil).
                         Estoy interesado en proyectos basados en mi experiencia desarrollando y por supuesto
                         retos que me ayuden a mejorar constantemente en el área.
-                    </p>
+                    </span>
                 </div>
-                <div class="col-4 col-12-medium">
-                    <p>
+                <div class="col-4">
+                    <span>
                         Estoy disponible para trabajar en un equipo que necesite de una persona
                         comprometida, responsable y seria con su trabajo, estoy dispuesto a
                         aprender de aquellos con mayor experiencia involucrados en el proyecto.
                         Es importante mencionar que puedo laborar "in situ" o desde casa, si te
                         interesa saber más acerca de mí, desliza hacía abajo.
-                    </p>
+                    </span>
                 </div>
             </div>
         </div>
@@ -173,65 +165,100 @@
     <!--Contacto-->
     <section class="complementary-color">
         <div class="text-color-s-center">
-            <h3>Si deseas contactarme llena el siguiente formulario</h3>
+            <h3>Formulario de contacto</h3>
+            <br />
+        </div>
+        <div class="row ">
+            <div class="col-md-8">
+                <form method="post" action="">
+                    <div class="controls">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="form_name">Nombre(s)</label>
+                                    <input id="form_name" type="text" name="name" class="form-control"
+                                        placeholder="Por favor introduce tu(s) nombre(s)" required="required" data-error="">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="form_lastname">Apellido(s)</label>
+                                    <input id="form_lastname" type="text" name="surname" class="form-control"
+                                        placeholder="Por favor introduce tu(s) apellidos(s)" required="required" data-error="">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="form_email">Correo electrónico</label>
+                                    <input id="form_email" type="email" name="email" class="form-control"
+                                        placeholder="Por favor introduce tu email" required="required"
+                                        data-error="Valid email is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label for="form_phone">Número celular</label>
+                                    <input id="form_phone" type="tel" name="phone" class="form-control"
+                                        placeholder="Ingresa tu número telefónico">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-9">
+                                <div class="form-group">
+                                    <label for="form_message">Mensaje</label>
+                                    <textarea id="form_message" name="message" class="form-control"
+                                        placeholder="Escribe tu mensaje" rows="4" required data-error=""></textarea>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <!--Este boton se ve chistoso-->
+                            <div class="col">
+                                <br />
+                                <br />
+                                <br />
+                                <input type="button" class="btn btn-send button" value="Enviar">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!--Datos de contacto 1-->
+            <div class="col-md-4">
+                <div class="card contact-info">
+                    <div class="card-body">
+                        <h5 class="card-title">Información de contacto</h5>
+                        <p class="card-text">
+                            <span>
+                                <i class="fas fa-map-marked-alt"></i>
+                            </span>
+                             Calzada de Guadalupe #4, Dios Padre, Ixmiquilpan, Hidalgo, México.
+                        </p>
+                        <p class="card-text">
+                            <span>
+                                <i class="fas fa-envelope"></i>
+                            </span>
+                             javban06@gmail.com
+                        </p>
+                        <p class="card-text">
+                            <span>
+                                <i class="fas fa-mobile-alt"></i>
+                            </span>
+                             (+52)7721251130
+                        </p>
+                    </div>
+                  </div>
+            </div>
         </div>
 
-        <form method="post" action="">
-            <div class="controls center-div">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="form_name">Nombre(s)</label>
-                            <input id="form_name" type="text" name="name" class="form-control"
-                                placeholder="Por favor introduce tu(s) nombre(s)" required="required" data-error="">
-                            <div class="help-block with-errors"></div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="form_lastname">Apellido(s)</label>
-                            <input id="form_lastname" type="text" name="surname" class="form-control"
-                                placeholder="Por favor introduce tu(s) apellidos(s)" required="required" data-error="">
-                            <div class="help-block with-errors"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="form_email">Correo electrónico</label>
-                            <input id="form_email" type="email" name="email" class="form-control"
-                                placeholder="Por favor introduce tu email" required="required"
-                                data-error="Valid email is required.">
-                            <div class="help-block with-errors"></div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="form_phone">Número celular</label>
-                            <input id="form_phone" type="tel" name="phone" class="form-control"
-                                placeholder="Ingresa tu número telefónico">
-                            <div class="help-block with-errors"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="form-group">
-                            <label for="form_message">Mensaje</label>
-                            <textarea id="form_message" name="message" class="form-control"
-                                placeholder="Escribe tu mensaje" rows="4" required data-error=""></textarea>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                    </div>
-                    <!--Probablemente las redes sociales y demás las coloque en una columna aquí-->
-                    <!--Este boton se ve chistoso-->
-                    <div class="col-md-12">
-                        <input type="submit" class="btn btn-success btn-send" value="Send message">
-                    </div>
-                </div>
-            </div>
-        </form>
+        
     </section>
     <!--Contacto end-->
 
@@ -239,20 +266,26 @@
     <footer>
         <!--Redes sociales, colocar iconos, falta agregarles la ruta, en caso de los que no lleban URL
         aun no decido como presentarlos-->
-        <div class="banner footer-color">
+        <div class="footer">
             <span>
-                <i class="fab fa-facebook-f"></i>
+                <a class="link" href="https://www.facebook.com/JDBanda" target="blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
             </span>
             <span>
-                <i class="fab fa-github"></i>
+                <a class="link" href="https://github.com/JDBanda" target="blank">
+                    <i class="fab fa-github"></i>
+                </a>
             </span>
             <span>
-                <i class="fas fa-mobile-alt"></i>
-            </span>
-            <span>
-                <i class="fas fa-envelope"></i>
+                <a class="link" href="https://drive.google.com/file/d/1vVfHPkyyvLiQ6_5XR2rHadeFVHj_pEdc/view?usp=sharing" target="blank">
+                    <i class="fas fa-file-download"></i>
+                </a>
             </span>
         </div>
+        <div class="footer-copyright text-center py-3 primary-color">© 2020 Copyright:
+            Javier David Banda Villeda</a>
+          </div>
     </footer>
     <!--Footer end-->
 </body>

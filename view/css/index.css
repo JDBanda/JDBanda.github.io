@@ -1,32 +1,7 @@
-/*Color para textos blancos*/
-.text-color{
-    color: #ffffff;
-}
-.text-color-s{
-    color: #14213D !important;
-}
-.text-color-s-center{
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    color: #14213D;
-    text-align: center;
-}
-/*Color para contenedores*/
-.primary-color{
-    color: #ffffff;
-    background-color: #14213D;
+::-webkit-scrollbar {
+    display: none;
 }
 
-.footer-color{
-    margin-top: 1em;
-    color: #000000;
-    background-color: #FCA311;
-}
-
-.complementary-color{
-    color: #14213D !important;
-    background-color: #ffffff;
-}
 /*jumbotron transparente*/
 .jumbotron{
     background:transparent !important;
@@ -42,13 +17,40 @@ img.small-img{
     border-radius: 70%;
 }
 
-.right-text{
-    text-align: right;
+/*ESTILO PRINCIPAL*/
+.primary-color{
+    color: #ffffff;
+    background-color: #14213D;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 10) !important;
 }
 
-.banner{
+/*ESTILO PARA TEXTO LARGO*/
+.complementary-color{
+    color:#14213D !important;
+    background-color: #E5E5E5;
+    margin-top: -35px;
+    margin-bottom: -40px;
+    padding: 60px;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+h3{
     text-align: center;
-    font-size: 2.5rem;
+}
+
+/*Litas alineadas con el texto*/
+.nobullets{
+    list-style-type: none;
+    font-size: 1.2rem;
+    padding-left: 0px;
+}
+
+/*ESTILO DEL FOOTER*/
+.footer{
+    text-align: center;
+    font-size: 2rem;
+    background-color: #14213D;
 }
 
 /*Controles del carrusel*/
@@ -57,12 +59,48 @@ img.small-img{
   height: 50px;
   width: 50px;
   border-radius: 70%;
-  outline: black;
-  background-color: #14213D;
 }
 
-/*Bordes y margenes de contenedores*/
-.center-div{
-    margin-left: 3rem;
-    margin-right: 3rem;
+
+/*Estilo de la CARD de contacto*/
+.contact-info{
+    height: 15rem !important;
+    width: 25rem !important;
+    padding: 0 !important;
+    color: #ffffff;
+    background-color: #14213D;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 1) !important;
+}
+
+/*Enlaces*/
+.link{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+a:link, a:visited{
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgba(0, 0, 0, 1) !important;
+    background-color: rgba(252, 163, 17, 1);
+}
+
+a:link:active, a:visited:active {
+    color: auto;
+}
+
+/*Botones*/
+.button{
+    color: #ffffff;
+    background-color: #14213D;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 10) !important;
+}
+
+.button:hover{
+    color: rgba(0, 0, 0, 1);
+    background-color: rgba(252, 163, 17, 1);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 10) !important;
 }
