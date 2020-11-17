@@ -1,3 +1,4 @@
+/*Quitar barra horizontal*/
 ::-webkit-scrollbar {
     display: none;
 }
@@ -30,7 +31,7 @@ img.small-img{
     background-color: #E5E5E5;
     margin-top: -35px;
     margin-bottom: -40px;
-    padding: 60px;
+    padding: 60px 70px 100px 70px;
     font-size: 1.1rem;
     text-align: justify;
 }
@@ -60,6 +61,16 @@ h3{
   width: 50px;
   border-radius: 70%;
 }
+
+/*Tamaños de carrusel*/
+.container-fluid {
+    height: 90%;
+    width: 100%;
+  }
+  
+  .carousel-inner img {
+    height: 500px;
+  }
 
 
 /*Estilo de la CARD de contacto*/
@@ -104,3 +115,4 @@ a:link:active, a:visited:active {
     background-color: rgba(252, 163, 17, 1);
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 10) !important;
 }
+
