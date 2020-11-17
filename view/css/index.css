@@ -3,6 +3,14 @@
     display: none;
 }
 
+/*Menu fijo y transparente*/
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    box-shadow: 0px 5px 100px rgba(0, 0, 0, 10) !important;
+  }
+
 /*jumbotron transparente*/
 .jumbotron{
     background:transparent !important;
