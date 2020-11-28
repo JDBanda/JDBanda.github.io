@@ -13,6 +13,7 @@ header {
 
 /*jumbotron transparente*/
 .jumbotron{
+    padding-top: 100px;
     background:transparent !important;
 }
 
@@ -39,7 +40,7 @@ img.small-img{
     background-color: #E5E5E5;
     margin-top: -35px;
     margin-bottom: -40px;
-    padding: 60px 70px 100px 70px;
+    padding: 60px 20px 100px 20px;
     font-size: 1.1rem;
     text-align: justify;
 }
