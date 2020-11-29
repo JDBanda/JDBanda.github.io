@@ -27,6 +27,16 @@ img.small-img{
     border-radius: 70%;
 }
 
+img.medium-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+    height: auto;
+    border-radius: 10%;
+}
+
 /*ESTILO PRINCIPAL*/
 .primary-color{
     color: #ffffff;
