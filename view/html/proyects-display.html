@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <!--Bootstrap-->
+    <!--Material icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Material icons-->
+    <script src="https://kit.fontawesome.com/a677121f00.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/index.css">
+    <title>Educación</title>
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark primary-color">
+            <!--Boton que aparece cuando se hace mas chica la pantalla-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <!--Menu, me gustaria que al pasar el mouse cambiaran los colores y ademas se diera una pequeña descripción-->
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../index.html">
+                            <strong>Inicio</strong>
+                        </a>
+                    </li>
+                    <li class="nav-item submenu">
+                        <a class="nav-link" href=""><strong>Proyectos</strong></a>
+                        <div class="submenu-content">
+                            <strong><a href="proyects-display.html">Software de display</a></strong><br>
+                            <strong><a href="proyects-rally.html">Rally Networks</a></strong><br>
+                            <strong><a href="proyects-simulacion.html">Simulación</a></strong>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="education.html"><strong>Formación
+                                académica</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="skills.html"><strong>Conocimientos y
+                                habilidades</strong></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!--Header end-->
+
+    <!--Resumen de proyectos-->
+    <section id="banner" class="primary-color">
+        <div class="container">
+            <div class="banner-small">
+                <div class="row">
+                    <h1>Software de display para monitoreo de línea</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Cuerpo-->
+    <section class="complementary-color">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h4>ACC MEX S.A. de C.V.<address>Santiago de Querétaro, Querétaro</address></h4>
+                    <span class="badge badge-primary">Desarrollo de escritorio</span>
+                    <span class="badge badge-secondary">C#</span>
+                    <span class="badge badge-secondary">SQL Server</span>
+                    <span class="badge badge-secondary">ADO.NET</span>
+                    <span class="badge badge-danger">LINQ to XML</span>
+                    <span class="badge badge-success">Control de versiones</span>
+                    <br>
+                    <br>
+                    <h5>Resumen</h5>
+                    <p>
+                        Se realizó un proyecto de desarrollo tecnológico, en el cual se analizó la oportunidad
+                        de refactorizar una aplicación existente. Debido a una serie de incinconsistencias en el código fuente,
+                        falta de un patrón de diseño, separación de la lógica de la vista y analizando las implicaciones de usar
+                        C# por sobre Visual Basic como lenguaje de programación, se acordó llevar a cabo la realización de una aplicación
+                        de Windows Forms con ayuda del IDE Visual Studio.
+                    </p>
+                    <h5>Problema que se resolvió</h5>
+                    <p>
+                        <strong><i>Optimizar el tiempo de producción con ayuda de una aplicación intuitiva.</i></strong>
+                    </p>
+
+                    <h5>Tareas esenciales</h5>
+                    <ul>
+                        <li>Reestructurar el patrón de diseño de la aplicación para aumentar su escalabilidad utilizando un modelo de n-capas (presentación, negocio, entidades y datos).</li>
+                        <li>Analizar los requerimientos respecto al sistema actual, conservando el objetivo principal de la aplicación (informar sobre el estado en producción).</li>
+                        <li>Conocer el entorno de desarrollo en C# para realizar una refactorización de código desde VB.</li>
+                        <li>Implementar un diseño orientado a UI/UX para facilitar la comprensión de la información</li>
+                        <li>Segmentar correctamente el origen de datos local con archivos de configuración y de base de datos utilizando ADO.NET para evitar redundancia.</li>
+                        <li>Crear e implementar un DLL para manipular procedimientos almacenados de una manera más amena.</li>
+                        <li>Implementar librerías específicas de C# para manipular componentes y colecciones de datos de XML.</li>
+                        <li>Manejar un control de versiones con Git para manipular los cambios y el trabajo remoto.</li>
+                        <li>Implementar operaciones CRUD a los módulos correspondientes tanto para componentes como para XML.</li>
+                        <li>Documentar constantemente los cambios que se realicen para conservar un código más limpio.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
