@@ -40,7 +40,7 @@
                         </a>
                     </li>
                     <li class="nav-item submenu">
-                        <a class="nav-link" href=""><strong>Proyectos</strong></a>
+                        <a class="nav-link" href="#"><strong>Proyectos</strong></a>
                         <div class="submenu-content">
                             <strong><a href="proyects-display.html">Software de display</a></strong><br>
                             <strong><a href="proyects-rally.html">Rally Networks</a></strong><br>
@@ -89,26 +89,107 @@
                     <h5>Resumen</h5>
                     <p>
                         Se realizó un proyecto de escritorio en Java para demostrar que las técnicas de simulación
-                        puede ayudar a comprender como se comporta un negocio a través del tiempo, se analizan específicamente
+                        pueden ayudar a comprender como se comporta un negocio a través del tiempo, se analizan específicamente
                         algunas variables aleatorias discretas y continuas. Para la realización de este programa se llevo a cabo el
                         uso de un patrón de diseño basado en MVC.
                     </p>
-
+                    <br>
+                    <br>
                     <h5>Problema que se resolvió</h5>
                     <p>
                         <strong><i>Crear una aplicación que aplique técnicas de simulación para representar el
                                 comportamiento de un billar</i></strong>
                     </p>
+                    <br>
+                    <h5>Capturas de pantalla</h5>
+                    <br>
+                    <div class="grid-rally">
+                        <div class="panel-body div-emphasis">
+                            <h6>Vista principal</h6>
+                            <div>
+                                <img src="../img/Proyectos/desk apps/simulacion-view.jpg" alt="" class="square">
+                            </div>
+                            <p">
+                                Se muestra una vista con una única entrada que después de ser ingresada, comenzará
+                                a realizar la simulación y arrojará datos en tres tablas como resultado. El proceso
+                                emplea una serie de calculos aritméticos para realizar una estimación de los datos.
+                            </p>
+                        </div>
 
-                    <!-- Aqui se supone que van las imagenes en tipo grid -->
-                    <div>
-                        
+                        <div class="panel-body div-emphasis">
+                            <h6>Gráficos con JFreechart</h6>
+                            <div>
+                                <img src="../img/Proyectos/desk apps/simulacion-tablas.jpg" alt="" class="square">
+                            </div>
+                            <p">
+                                Los datos de las tablas pueden visualizarce por medios de gráficos realizados en
+                                JFreechart 1.5, una librería que permite realizar diferentes tipos de gráficos
+                                volviendo esta tarea más sencilla.
+                            </p>
+                        </div>
+
+                        <div class="panel-body div-emphasis">
+                            <h6>Ejemplificaión de MVC</h6>
+                            <div>
+                                <img src="../img/Proyectos/desk apps/simulacion-mvc.jpg" alt="" class="square">
+                            </div>
+                            <p">
+                                Uno de los propósitos de llevar a cabo esta problemática fue para reconocer como
+                                se estructura el patrón MVC de una forma sencilla, gracias a ello los métodos estan
+                                claramente delimitaos y el código es más entendible.
+                            </p>
+                        </div>
+
+                        <div class="panel-body div-emphasis">
+                            <h6>Documentación constante</h6>
+                            <div>
+                                <img src="../img/Proyectos/desk apps/simulacion-documentacion.jpg" alt="" class="square">
+                            </div>
+                            <p">
+                                En este programa se pueden observar múltiples comentarios que ayudan a mejorar la comprensión 
+                                del código fuente.
+                            </p>
+                        </div>
+
                     </div>
 
                 </div>
             </div>
         </div>
     </section>
+
+    <!--Footer-->
+    <footer>
+        <!--Redes sociales, colocar iconos, falta agregarles la ruta, en caso de los que no lleban URL
+        aun no decido como presentarlos-->
+        <div class="footer">
+            <span>
+                <a class="link" href="https://www.facebook.com/JDBanda" target="blank" data-toggle="tooltip" data-placement="top" title="Contactame por facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </span>
+            <span>
+                <a class="link" href="https://github.com/JDBanda" target="blank" data-toggle="tooltip" data-placement="top" title="Sigueme en github">
+                    <i class="fab fa-github"></i>
+                </a>
+            </span>
+            <span>
+                <a class="link"
+                    href="https://drive.google.com/file/d/1vVfHPkyyvLiQ6_5XR2rHadeFVHj_pEdc/view?usp=sharing"
+                    target="blank" 
+                    data-toggle="tooltip" data-placement="top" title="Descarga mi CV">
+                    <i class="fas fa-file-download"></i>
+                </a>
+            </span>
+        </div>
+        <div class="footer-copyright text-center py-3 primary-color">© 2020 Copyright:
+            Javier David Banda Villeda<br />
+            <span><i class="fas fa-map-marked-alt"></i></span> Calzada de Guadalupe #4, Dios Padre, Ixmiquilpan, Hidalgo, México <br />
+            <span><i class="fas fa-envelope"></i></span> javban06@gmail.com | <span><i class="fas fa-mobile-alt"></i></span> (+52)7721251130
+        </div>
+    </footer>
+    <!--Footer end-->
+    <script src="../js/tooltip.js"></script>
 </body>
 
 </html>

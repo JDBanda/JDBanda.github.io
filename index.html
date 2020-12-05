@@ -40,7 +40,7 @@
                         </a>
                     </li>
                     <li class="nav-item submenu">
-                        <a class="nav-link" href="view/html/proyects.html"><strong>Proyectos</strong></a>
+                        <a class="nav-link" href="#"><strong>Proyectos</strong></a>
                         <div class="submenu-content">
                             <strong><a href="view/html/proyects-display.html">Software de display</a></strong><br>
                             <strong><a href="view/html/proyects-rally.html">Rally Networks</a></strong><br>
@@ -73,7 +73,7 @@
                     <div class="col-sm banner-text">
                         <h1>Javier David Banda Villeda</h1>
                         <p>¡Hola! soy un practicante de ingeniería en sistemas computacionales<br />
-                        <ul class="nobullets">
+                        <ul class="nobullets-nohover">
                             <li><strong>Web </strong><span><i class="fas fa-globe"></i></span> HTML, CSS, JS,
                                 PHP, Python<br /></li>
                             <li><strong>Escritorio </strong><i class="fas fa-desktop"></i> Java,C#<br /></li>
@@ -126,8 +126,8 @@
                 <div class="carousel-item active">
                     <img src="view/img/Proyectos/rally/Main.png" class="d-block w-100" alt="Rally">
                     <div class="carousel-caption d-none d-md-block primary-color">
-                        <a href=""><h5>Sistema web para la administración del Rally Networks</h5></a>
-                        <p>Sistema web alojado en un <a href="http://www.rallynetworks.educationhost.cloud/" target="blank">servidor</a>
+                        <a href="view/html/proyects-rally.html"><h5>Sistema web para la administración del Rally Networks</h5></a>
+                        <p>Sistema web alojado en un <a href="https://rallynetworks.tech/" target="blank">servidor de hostinger</a>
                             para apoyar al personal organizacional a llevar a cabo el evento evitando el uso de medios impresos
                             tanto para registros como para generar puntuaciones.
                         </p>
@@ -136,7 +136,7 @@
                 <div class="carousel-item">
                     <img src="view/img/Proyectos/desk apps/JAVA.png" class="d-block w-100" alt="Java">
                     <div class="carousel-caption d-none d-md-block primary-color">
-                        <a href=""><h5>Simulación del billar "SOTUYO"</h5></a>
+                        <a href="view/html/proyects-simulacion.html"><h5>Simulación del billar "SOTUYO"</h5></a>
                         <p>Aplicación de escritorio que muestra el comportamiento de un billar
                             gracias a la aplicación de técnicas de simulación.
                         </p>
@@ -145,7 +145,7 @@
                 <div class="carousel-item">
                     <img src="view/img/Proyectos/desk apps/kanban-acc.jpg" class="d-block w-100" alt="teorema">
                     <div class="carousel-caption d-none d-md-block primary-color">
-                        <a href=""><h5>Aplicación de escritorio para la empresa ""</h5></a>
+                        <a href="view/html/proyects-display.html"><h5>Aplicación de escritorio para la empresa ACC MEX S.A. de C.V.</h5></a>
                         <p>Actualización de una aplicación de escritorio para una empresa mexicana,
                             que permita agilizar su proceso de producción de forma indirecta.
                             (<span>Photo by <a href="https://unsplash.com/@lazizli?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Lala Azizli</a> on <a href="https://unsplash.com/s/photos/kanban?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>)
@@ -247,19 +247,20 @@
         aun no decido como presentarlos-->
         <div class="footer">
             <span>
-                <a class="link" href="https://www.facebook.com/JDBanda" target="blank">
+                <a class="link" href="https://www.facebook.com/JDBanda" target="blank" data-toggle="tooltip" data-placement="top" title="Contactame por facebook">
                     <i class="fab fa-facebook-f"></i>
                 </a>
             </span>
             <span>
-                <a class="link" href="https://github.com/JDBanda" target="blank">
+                <a class="link" href="https://github.com/JDBanda" target="blank" data-toggle="tooltip" data-placement="top" title="Sigueme en github">
                     <i class="fab fa-github"></i>
                 </a>
             </span>
             <span>
                 <a class="link"
                     href="https://drive.google.com/file/d/1vVfHPkyyvLiQ6_5XR2rHadeFVHj_pEdc/view?usp=sharing"
-                    target="blank">
+                    target="blank" 
+                    data-toggle="tooltip" data-placement="top" title="Descarga mi CV">
                     <i class="fas fa-file-download"></i>
                 </a>
             </span>
@@ -271,6 +272,7 @@
         </div>
     </footer>
     <!--Footer end-->
+    <script src="view/js/tooltip.js"></script>
 </body>
 
 </html>

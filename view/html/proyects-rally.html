@@ -40,7 +40,7 @@
                         </a>
                     </li>
                     <li class="nav-item submenu">
-                        <a class="nav-link" href=""><strong>Proyectos</strong></a>
+                        <a class="nav-link" href="#"><strong>Proyectos</strong></a>
                         <div class="submenu-content">
                             <strong><a href="proyects-display.html">Software de display</a></strong><br>
                             <strong><a href="proyects-rally.html">Rally Networks</a></strong><br>
@@ -141,7 +141,9 @@
                                 <img src="../img/Proyectos/rally/menu-evaluador.jpg" alt="Equipos" class="square">
                             </div>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni temporibus, nam, nulla excepturi autem minima tempore aspernatur possimus saepe cum id pariatur ipsa ad molestiae. Dicta autem obcaecati aut sint.
+                                Consta de una página en donde se selecciona un equipo para evaluar, la tabla cuenta con una función especial
+                                de JavaScript (con ayuda de JQuery) quepermite sumar los puntos del equipo a medida que se seleccionan los
+                                elementos de la tabla de evaluación.
                             </p>
                         </div>
 
@@ -151,7 +153,10 @@
                                 <img src="../img/Proyectos/rally/staff SPA.png" alt="Staff agregar equipos" class="square">
                             </div>
                             <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio cumque, tenetur laboriosam similique doloribus accusamus nesciunt repudiandae inventore id quia sequi architecto! Eos odio ab numquam tempore itaque, quisquam aliquid!
+                                El staff puede apoyar en actividades de registro de equipos, evaluadores y participantes,
+                                la página se apoya de AJAX para no recargarse cada vez que se envía una solicitud al servidor.
+                                Esta actividad reduce el tiempo de trabajo del administrador limitandolo a controlar que los
+                                registros sean correctos.
                             </p>
                         </div>
 
@@ -160,13 +165,49 @@
                             <div>
                                 <img src="../img/Proyectos/rally/bases.jpg" alt="bases" class="square">
                             </div>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum temporibus iste unde iusto ratione animi quaerat non dignissimos voluptatum! Maxime cupiditate repudiandae dolore, quis quidem itaque ipsam? Voluptatum, alias possimus?</p>
+                            <p>
+                                Una parte crucial de la actividad que se lleva a cabo son los alumnos que apoyan (staff) en las
+                                actividades, principalmnete tomando tiempos de retos, distracciones y verificando que no se realice alguna sanción.    
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!--Footer-->
+    <footer>
+        <!--Redes sociales, colocar iconos, falta agregarles la ruta, en caso de los que no lleban URL
+        aun no decido como presentarlos-->
+        <div class="footer">
+            <span>
+                <a class="link" href="https://www.facebook.com/JDBanda" target="blank" data-toggle="tooltip" data-placement="top" title="Contactame por facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </span>
+            <span>
+                <a class="link" href="https://github.com/JDBanda" target="blank" data-toggle="tooltip" data-placement="top" title="Sigueme en github">
+                    <i class="fab fa-github"></i>
+                </a>
+            </span>
+            <span>
+                <a class="link"
+                    href="https://drive.google.com/file/d/1vVfHPkyyvLiQ6_5XR2rHadeFVHj_pEdc/view?usp=sharing"
+                    target="blank" 
+                    data-toggle="tooltip" data-placement="top" title="Descarga mi CV">
+                    <i class="fas fa-file-download"></i>
+                </a>
+            </span>
+        </div>
+        <div class="footer-copyright text-center py-3 primary-color">© 2020 Copyright:
+            Javier David Banda Villeda<br />
+            <span><i class="fas fa-map-marked-alt"></i></span> Calzada de Guadalupe #4, Dios Padre, Ixmiquilpan, Hidalgo, México <br />
+            <span><i class="fas fa-envelope"></i></span> javban06@gmail.com | <span><i class="fas fa-mobile-alt"></i></span> (+52)7721251130
+        </div>
+    </footer>
+    <!--Footer end-->
+    <script src="../js/tooltip.js"></script>
 </body>
 
 </html>
