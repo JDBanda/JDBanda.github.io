@@ -189,26 +189,22 @@
         </div>
         <div class="row ">
             <div class="col-md-12">
-                <form name="contact-form" id="contact-form" 
-                action="https://docs.google.com/forms/d/e/1FAIpQLSeiTi3KbbBTkgA1hlqSat917rhee_3dt9qmCsute9uZ602sYQ/formResponse?usp=pp_url&entry.166845260=asdasda&entry.433544925=asdasdas&entry.1165753691=asdasd@gmail.com&entry.14735724=7896857412&entry.1227684501=asdasdasdasd" enctype="text/plain"
-                target="hidden_iframe" onsubmit="submitted=true;">
+                <form name="contact-form" id="contact-form" method="POST" action="https://usebasin.com/f/76d113abc5bf">
                     <div class="controls">
                         <div class="row">
                             <div class="col">
                                 <div class="form-group">
                                     <label for="form_name">Nombre(s)</label>
-                                    <input id="entry.166845260" type="text" name="entry.166845260" class="form-control"
-                                        placeholder="Por favor introduce tu(s) nombre(s)" required="required"
-                                        data-error="">
+                                    <input type="text" name="name" class="form-control"
+                                        placeholder="Por favor introduce tu(s) nombre(s)">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="form-group">
                                     <label for="form_lastname">Apellido(s)</label>
-                                    <input id="entry.433544925" type="text" name="entry.433544925" class="form-control"
-                                        placeholder="Por favor introduce tu(s) apellidos(s)" required="required"
-                                        data-error="">
+                                    <input type="text" name="surname" class="form-control"
+                                        placeholder="Por favor introduce tu(s) apellidos(s)">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
@@ -218,16 +214,15 @@
                             <div class="col">
                                 <div class="form-group">
                                     <label for="form_email">Correo electrónico</label>
-                                    <input id="entry.1165753691" type="email" name="entry.1165753691" class="form-control"
-                                        placeholder="Por favor introduce tu email" required="required"
-                                        data-error="Valid email is required.">
+                                    <input type="email" name="email" class="form-control"
+                                        placeholder="Por favor introduce tu email">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="form-group">
                                     <label for="form_phone">Número celular</label>
-                                    <input id="entry.14735724" type="tel" name="entry.14735724" class="form-control"
+                                    <input type="tel" name="tel" class="form-control"
                                         placeholder="Ingresa tu número telefónico">
                                     <div class="help-block with-errors"></div>
                                 </div>
@@ -237,8 +232,8 @@
                             <div class="col-9">
                                 <div class="form-group">
                                     <label for="form_message">Mensaje</label>
-                                    <textarea id="entry.1227684501" name="entry.1227684501" class="form-control"
-                                        placeholder="Escribe tu mensaje" rows="4" required data-error=""></textarea>
+                                    <textarea name="message" class="form-control"
+                                        placeholder="Escribe tu mensaje" rows="4"></textarea>
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
@@ -248,7 +243,6 @@
                                 <br />
                                 <br />
                                 <input type="submit" class="btn btn-send button" value="Enviar">
-                                <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
                             </div>
                         </div>
                     </div>
@@ -293,7 +287,6 @@
     <!--Footer end-->
     <script src="view/js/tooltip.js"></script>
     <script src="view/js/jquery-3.1.1.min.js"></script>
-    <script type="text/javascript">var submitted=false;</script>
     <script type="text/javascript" src="view/js/formSubmit.js"></script>
 </body>
 
